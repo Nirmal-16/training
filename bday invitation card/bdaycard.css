@@ -1,0 +1,319 @@
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing: border-box;
+}
+body{
+    background-image: url("/bday\ back.jpg");
+    padding:0px 120px;
+    width:100vw;
+    height:100vh;
+}
+.card{
+    display:flex;
+    height:743px;
+    width:1300px;
+    
+   
+}
+.content{
+    width:50%;
+    background-color:rgb(24, 24, 24);
+    color:white;
+    border:2px solid white;
+    text-align:center;
+}
+.p1{
+    font-family: 'Fredericka the Great', cursive;
+    margin-top: 20px;
+    font-size: 30px;
+    letter-spacing: 4px;
+}
+.p2{
+    font-family: 'Arizonia', cursive;
+    margin-top: 80px;
+    font-size: 60px;
+}
+.p3{
+    font-family: 'Arizonia', cursive;
+    margin-top: 10px;
+    font-size: 60px;
+}
+.venue{
+    font-family: 'Fredericka the Great', cursive;
+    margin-top: 60px;
+    font-size: 30px;
+    line-height:60px;
+    letter-spacing: 4px;
+}
+.image{
+    width:50%;
+    border:2px solid white;
+    position:relative;
+    background-image:url("/apj.jpeg") ;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+img{
+    width:100%;
+    height:100%;
+    position:relative;
+}
+.r1{
+    height:40px;
+    width:2px;
+    background-color: aqua;
+    position: absolute;
+    margin-top:30px;
+    animation: move3 3s linear infinite;
+    animation: rotor1 3s linear infinite;
+}
+.r2{
+    height:40px;
+    width:2px;
+    background-color: rgb(248, 174, 15);
+    position: absolute;
+    margin-top:30px;
+    margin-left:100px;
+    animation: move2 2s linear infinite;
+    animation: rotor2 2s linear infinite;
+}
+.r3{
+    height:40px;
+    width:2px;
+    background-color: rgb(94, 255, 0);
+    position: absolute;
+    margin-top:30px;
+    margin-left:200px;
+    animation: move4 1s linear infinite;
+    animation: rotor3 1s linear infinite;
+}
+.r4{
+    height:40px;
+    width:2px;
+    background-color: rgb(0, 55, 255);
+    position: absolute;
+    margin-top:30px;
+    margin-left:300px;
+    animation: move1 4s linear infinite;
+    animation: rotor4 4s linear infinite;
+}
+.r5{
+    height:40px;
+    width:2px;
+    background-color: rgb(191, 0, 255);
+    position: absolute;
+    margin-top:30px;
+    margin-left:400px;
+    animation: move5 1s linear infinite;
+    animation: rotor5 1s linear infinite;
+}
+.r6{
+    height:40px;
+    width:2px;
+    background-color: rgb(255, 0, 25);
+    position: absolute;
+    margin-top:30px;
+    margin-left:500px;
+    animation: move3 3s linear infinite;
+    animation: rotor3 4s linear infinite;
+}
+.r7{
+    height:40px;
+    width:2px;
+    background-color: rgb(251, 255, 0);
+    position: absolute;
+    margin-top:30px;
+    margin-left:600px;
+    animation: move2 3s linear infinite;
+    animation: rotor2 2s linear infinite;
+}
+.r8{
+    height:40px;
+    width:2px;
+    background-color: rgb(0, 255, 204);
+    position: absolute;
+    margin-top:30px;
+    margin-left:700px;
+    z-index: 2;
+    animation: move1 3s linear infinite;
+    animation: rotor4 4s linear infinite;
+}
+.r9{
+    height:40px;
+    width:2px;
+    background-color: rgb(149, 0, 255);
+    position: absolute;
+    margin-top:30px;
+    margin-left:800px;
+    z-index: 2;
+    animation: move4 3s linear infinite;
+    animation: rotor1 1s linear infinite;
+}
+.r10{
+    height:40px;
+    width:2px;
+    background-color: rgb(255, 55, 0);
+    position: absolute;
+    margin-top:30px;
+    margin-left:900px;
+    z-index: 2;
+    animation: move5 3s linear infinite;
+    animation: rotor5 3s linear infinite;
+}
+.r11{
+    height:40px;
+    width:2px;
+    background-color: rgb(0, 255, 89);
+    position: absolute;
+    margin-top:30px;
+    margin-left:1000px;
+    z-index: 2;
+    animation: move4 3s linear infinite;
+    animation: rotor2 2s linear infinite;
+}
+.r12{
+    height:40px;
+    width:2px;
+    background-color: rgb(255, 17, 0);
+    position: absolute;
+    margin-top:30px;
+    margin-left:1100px;
+    z-index: 2;
+    animation: move3 3s linear infinite;
+    animation: rotor4 5s linear infinite;
+}
+.r13{
+    height:40px;
+    width:2px;
+    background-color: aqua;
+    position: absolute;
+    margin-top:30px;
+    margin-left:1200px;
+    z-index: 2;
+    animation: move2 3s linear infinite;
+    animation: rotor1 2s linear infinite;
+}
+.r14{
+    height:40px;
+    width:2px;
+    background-color: rgb(0, 42, 255);
+    position: absolute;
+    margin-top:30px;
+    margin-left:1300px;
+    z-index: 2;
+    animation: move1 3s linear infinite;
+    animation: rotor3 4s linear infinite;
+}
+
+.smallstick{
+    position:absolute;
+    z-index: 2;
+    animation: move3 3s linear infinite;
+
+}
+.smallstick2{
+    position:absolute;
+    z-index: 2;
+    animation: move2 2s linear infinite;
+}
+.smallstick3{
+    position:absolute;
+    z-index: 2;
+    animation: move4 8s ease-in-out infinite;
+}
+.smallstick4{
+    position:absolute;
+    z-index: 2;
+    animation: move1 4s ease-in infinite;
+}
+
+@keyframes move1 {
+    from {
+        transform: translateY(0vh);
+       
+    }
+    to{
+        transform: translateY(100vh);
+    }
+}
+@keyframes move2 {
+    from {
+        transform: translateY(0vh);
+       
+    }
+    to{
+        transform: translateY(100vh);
+    
+}
+}
+@keyframes move3 {
+    from {
+        transform: translateY(0vh);
+       
+    }
+    to{
+        transform: translateY(100vh);
+    
+}
+}
+@keyframes move4 {
+    from {
+        transform: translateY(0vw);
+       
+    }
+    to{
+        transform: translateY(100vh);
+    
+}
+}
+@keyframes move5 {
+    from {
+        transform: translateY(0px);
+       
+    }
+    to{
+        transform: translateY(100vh);
+    
+}
+}
+@keyframes rotor1{
+    from{
+    transform: rotate(90deg);
+    }
+    to{
+        transform: rotate(360deg);
+    }
+}
+@keyframes rotor2{
+    from{
+    transform: rotate(0deg);
+    }
+    to{
+        transform: rotate(310deg);
+    }
+}
+@keyframes rotor3{
+    from{
+    transform: rotate(150deg);
+    }
+    to{
+        transform: rotate(360deg);
+    }
+}
+@keyframes rotor4{
+    from{
+    transform: rotate(20deg);
+    }
+    to{
+        transform: rotate(260deg);
+    }
+}
+@keyframes rotor5{
+    from{
+    transform: rotate(100deg);
+    }
+    to{
+        transform: rotate(300deg);
+    }
+}
