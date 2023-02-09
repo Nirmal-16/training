@@ -1,0 +1,63 @@
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing: border-box;
+}
+.container{
+    width:100vw;
+    height:100vh;
+    background-image:linear-gradient( rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url("/bakery\ 2");
+    background-size: cover;
+    background-repeat: no-repeat ;
+}
+.navigation{
+    display:flex;
+    align-items: center;
+    padding:25px;
+    justify-content: space-between;
+}
+img{
+    width:100px;
+    height:100px;
+    border:1px solid rgb(237, 180, 35);
+    border-radius: 70px; 
+}
+a{
+    text-decoration: none;
+    color:rgb(251, 220, 19);
+    margin-left: 50px;
+    font-size:20px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    letter-spacing: 2px;
+    font-weight:30px;
+}
+a:hover{
+    color:white;
+}
+.quotes{
+    width:420px;
+    font-size:25px;
+    color:rgb(237, 180, 35);
+    margin-left: 560px;
+    margin-top: 15px;
+    text-align: center;
+    word-spacing: 10px;
+    line-height:75px;
+    font-family: 'Aboreto', cursive;
+}
+.button{
+    border:1px solid rgb(237, 180, 35);
+    color:white;
+    width:185px;
+    padding:13px;
+    padding-left:17px;
+    font-size: 23px;
+    border-radius: 60px;
+    margin-left: 670px;
+    margin-top: 27px;
+    font-family: 'Aboreto', cursive;
+}
+.button:hover{
+    border:1px solid rgb(248, 247, 243);
+    color:rgb(237, 180, 35);
+}
