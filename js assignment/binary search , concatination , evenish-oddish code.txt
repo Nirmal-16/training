@@ -1,0 +1,55 @@
+
+--------------------------------------------------------evenish or oddish---------------------------------------------
+
+findOddOrEven=function(num){
+    var temp=num,sum=0;
+    while(temp){
+    sum=(temp%10)+sum;
+    temp=Math.floor(temp/10);
+    }
+    (sum%2==0)?console.log("The number is Evenish"):console.log("The number is oddish");
+}
+findOddOrEven(43);
+findOddOrEven(373);
+findOddOrEven(4433);
+
+-----------------------------------------------------------------------------------------------------------------------
+
+-------------------------------------------------------concatination of arrays----------------------------------------
+
+var array=[[1,2],[4,5],[6,7,8],[0,9,18]];
+console.log("this is given array before concatination:");
+console.log(array);
+var newArray=array.flat();
+console.log("this is the new concatinated array:")
+console.log(newArray);
+
+-----------------------------------------------------------------------------------------------------------------------
+
+---------------------------------------------------------binary search-------------------------------------------------
+
+ let findtheElement=function(array,searchelement,start,end){
+	if(start>end){
+		return false;
+	}
+	let mid=Math.floor((start+end)/2);
+	if(searchElement==mid){
+		return true;
+	}
+	if(searchElement>mid){
+		return findTheElement(array,searchElement,mid+1,end);
+	}
+	if(searchElement<mid){	
+	return findTheElement(array,searchElement,start,mid-1);
+	}
+}
+let array=[1,2,3,4,5,6];
+let searchElement=2;
+if(findTheElement(array,searchElement,0,array.length-1)){
+	document.write("The Element is present in the array");
+}
+else{
+	document.write("The Element is not present in the array);
+}
+
+--------------------------------------------------------------------------------------------------------------------------
